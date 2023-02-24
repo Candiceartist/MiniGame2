@@ -24,3 +24,8 @@ let alienShip = [
     },
 ]
 
+const fire = () => {
+    if (yourShip.accuracy < alienShip[0].accuracy) {
+        console.log("You'vebeen hit")
+    }
+}
