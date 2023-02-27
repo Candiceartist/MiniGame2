@@ -1,19 +1,26 @@
-
+body {
+    font-family:monospace;
+}
 .top {
     border: solid gray 1px;
     width: 98%;
     height: 50PX;
+    display: flex;
+    justify-content: center;
 }
 .health {
     border: solid black 1px;
     width: 98%;
     height: 60px;
     display: flex;
+    justify-content: center;
 }
 .player {
  border: solid olive 2px;
  width: 50%;
  height: 100%;
+ display: flex;
+ justify-content: center;
 }
 
 .arena {
@@ -21,12 +28,18 @@
     width: 98%;
     height: 350px;
     display: flex;
+    background-image: url(https://st3.depositphotos.com/9625262/36013/v/600/depositphotos_360136452-stock-video-sun-above-planet-earth-view.jpg);
 }
+
 
 .playBox {
     border: solid rgb(190, 74, 25) 1px;
     width: 50%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .controlBox {
@@ -39,6 +52,8 @@
  border: solid olive 2px;
  width: 50%;
  height: 100%;
+ display: flex;
+ justify-content: center;
 }
 .detailsBox {
     border: solid olive 2px;
@@ -70,4 +85,8 @@
 
 .story {
     text-align: center;
+}
+
+button {
+    border-radius: 5px;
 }

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="top"><h1></h1></div>
+    <div class="top"><h1>Earth's Survival</h1></div>
     <hr />
     <div class="health">
       <div class="player"><h2 class="playerH">0</h2></div>
@@ -22,7 +22,7 @@
           <img
             src="https://www.transparentpng.com/thumb/circle/2P2Onf-circle-picture.png"
             alt=""
-            class="alienImg"
+            class="playerImg"
           />
         </div>
       </div>
@@ -39,8 +39,8 @@
     <div class="controlBox">
       <div class="buttonBox">
         <button onclick="playerFires()" class="attack">ATTACK</button>
-        <button class="attack">RETREAT</button>
-        <button class="attack">ALIEN FIRES</button>
+        <button onclick="retreat()" class="attack">RETREAT</button>
+        <button onclick="alienFires()" class="attack">ALIEN FIRES</button>
       </div>
       <div class="detailsBox"><h3 class="story">The Saga Begins</h3></div>
     </div>
