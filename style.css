@@ -1,0 +1,73 @@
+
+.top {
+    border: solid gray 1px;
+    width: 98%;
+    height: 50PX;
+}
+.health {
+    border: solid black 1px;
+    width: 98%;
+    height: 60px;
+    display: flex;
+}
+.player {
+ border: solid olive 2px;
+ width: 50%;
+ height: 100%;
+}
+
+.arena {
+    border: solid navy 1px;
+    width: 98%;
+    height: 350px;
+    display: flex;
+}
+
+.playBox {
+    border: solid rgb(190, 74, 25) 1px;
+    width: 50%;
+    height: 100%;
+}
+
+.controlBox {
+    border: solid black 1px;
+    width: 98%;
+    height: 60px;
+    display: flex;
+}
+.buttonBox {
+ border: solid olive 2px;
+ width: 50%;
+ height: 100%;
+}
+.detailsBox {
+    border: solid olive 2px;
+    width: 50%;
+    height: 100%;
+}
+
+.imgBox {
+    border: solid black 1px;
+    width: 100px;
+    height:100px;
+}
+
+.imgBox2 {
+    border: solid black 1px;
+    width: 100px;
+    height:100px;
+}
+
+.playerImg {
+    width: 100%;
+    height: 100%;
+}
+
+.alienImg {
+    width: 100%;
+    height: 100%;
+}
+
+.story {
+    text-align: center;
+}
